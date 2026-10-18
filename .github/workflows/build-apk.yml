@@ -20,8 +20,6 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
 
-      - name: تثبيت Android SDK
-        uses: android-actions/setup-android@v3
 
       - name: تثبيت وإعداد Gradle
         uses: gradle/actions/setup-gradle@v4
