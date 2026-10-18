@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">دكان العفريت</string>
+
+    <string name="save">حفظ</string>
+    <string name="cancel">إلغاء</string>
+    <string name="delete">حذف</string>
+    <string name="edit">تعديل</string>
+    <string name="add">إضافة</string>
+    <string name="search">بحث</string>
+    <string name="confirm">تأكيد</string>
+
+    <string name="mode_pos">نقطة البيع</string>
+    <string name="mode_admin">الإدارة</string>
+    <string name="mode_reports">التقارير</string>
+    <string name="mode_inventory">المخزون</string>
+
+    <string name="cart">سلة المشتريات</string>
+    <string name="total">الإجمالي</string>
+    <string name="tax">الضريبة</string>
+    <string name="subtotal">المجموع الفرعي</string>
+    <string name="checkout">إتمام البيع</string>
+    <string name="payment_method">طريقة الدفع</string>
+    <string name="cash">نقداً</string>
+    <string name="card">بطاقة</string>
+    <string name="wallet">محفظة رقمية</string>
+    <string name="empty_cart">السلة فارغة، أضف منتجات للبدء</string>
+    <string name="sale_completed">تم إتمام عملية البيع بنجاح</string>
+
+    <string name="product_name">اسم المنتج</string>
+    <string name="product_price">السعر</string>
+    <string name="product_category">التصنيف</string>
+    <string name="product_quantity">الكمية</string>
+    <string name="product_barcode">الباركود (اختياري)</string>
+    <string name="discount">الخصم</string>
+    <string name="no_products">لا توجد منتجات، أضف منتجاً جديداً</string>
+
+    <string name="low_stock_alert">تنبيه: نقص في المخزون</string>
+    <string name="current_stock">المخزون الحالي</string>
+    <string name="min_stock_threshold">حد التنبيه الأدنى</string>
+    <string name="out_of_stock">نفدت الكمية</string>
+
+    <string name="today_sales">مبيعات اليوم</string>
+    <string name="total_revenue">إجمالي الإيرادات</string>
+    <string name="number_of_transactions">عدد العمليات</string>
+    <string name="best_selling">الأكثر مبيعاً</string>
+    <string name="sales_history">سجل المبيعات</string>
+</resources>
