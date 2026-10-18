@@ -34,6 +34,7 @@ fun POSScreen(repository: DokanRepository) {
     val uiState by viewModel.uiState.collectAsState()
     var showCheckoutSheet by remember { mutableStateOf(false) }
     val snackbarHostState = remember { SnackbarHostState() }
+    val saleCompletedMessage = stringResource(R.string.sale_completed)
 
     LaunchedEffect(uiState.errorMessage) {
         uiState.errorMessage?.let {
@@ -44,7 +45,7 @@ fun POSScreen(repository: DokanRepository) {
 
     LaunchedEffect(uiState.lastSaleSuccess) {
         if (uiState.lastSaleSuccess) {
-            snackbarHostState.showSnackbar(stringResource(R.string.sale_completed))
+            snackbarHostState.showSnackbar(saleCompletedMessage)
             viewModel.consumeSaleSuccessFlag()
             showCheckoutSheet = false
         }
